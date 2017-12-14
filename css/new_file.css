@@ -1,0 +1,355 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+	overflow: hidden;
+	height: 0px;
+}
+/*box-sizing布局,保证空间区域不变,不受padding,border影响*/
+div,input,img,button,figure{
+	box-sizing:border-box ;
+}
+body{
+	background: #f5f5f5;
+	font-size: "微软雅黑";
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+     clear: both;
+     overflow: hidden;
+     height: 0;	
+}
+#header{
+	width: 100%;
+	height:70px ;
+	background-color: #00bfff;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+	
+}
+#header .center{
+	width: 1260px;
+	height: 70px;
+	margin: 0px auto;
+}
+#header .center .logo{
+	width: 30%;
+	height: 70px;
+	background: url(../img/img1/logo.jpg) left center no-repeat;
+	float: left;
+}
+#header .center .link{
+	width: 60%;
+	height: 70px;
+	line-height: 70px;
+	color: #fff;
+	float: right;
+}
+
+#header .center .link li{
+	width: 20%;
+	text-align: center;
+	float:left;
+}
+#header .center .link li a{
+	color: white;
+	border-right:1px solid lightblue ;
+	display: block;
+}
+#header .center .link li a:hover{
+	background: orange;
+}
+#adver{
+	max-width: 1920px;
+    position: relative;
+    margin: 0px auto;
+}
+#adver .center{
+	width: 40%;
+	position: absolute;
+	top:50% ;
+	left: 50%;
+	margin-left: -20%;
+	overflow: hidden;
+}
+#adver .center .search{
+	width: 70%;
+	height: 52px;
+	font-size:16px ;
+	border: 2px solid deepskyblue;
+	padding-left:10px ;
+	border-right: none ;
+	float: left;
+}
+#adver .center .butotn{
+	width: 30%;
+	height: 52px;
+	background: deepskyblue;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight:bold ;
+	border: 2px solid deepskyblue;
+	float: left;
+}
+
+
+#tour{
+	
+	width: 1260px;
+	height: 1260px;
+	margin: 30px auto;
+	text-align: center;
+	
+}
+#tour .center h2{
+	color: #666666;
+	margin: 10ppx auto;
+	font-size: 35px;
+	letter-spacing: 2px;
+	/*文本阴影*/
+	text-shadow: ;0px 5px 10px #666666;
+}
+#tour .center p a{
+	font-size: 16px;
+	color: #666;
+}
+#tour .center p a:hover{
+	color: deepskyblue;
+}
+figure{
+    float: left;
+	width: 400px;
+	height: 350px;
+	border: 1px solid lightblue;
+	position: relative;
+	padding: 5px;
+	margin: 25px 10px;
+	border-radius:7px ;
+	letter-spacing: 1px;
+}
+/*img{
+	width: 395px;
+	height: 237px;
+	position: relative;
+	left: 4px;
+	top: 4px;
+}*/
+figure figcaption .tou-title{
+	
+	position: relative;
+	
+	text-align: left;
+	
+}
+
+ figure figcaption .tou-title .title{
+	color: red;
+}
+
+figure figcaption .info .price{
+	
+	/*position: relative;
+	top:12px;
+	right:125px;*/
+	color:#59b200;
+	font-size: 16px;
+	/*border:1px solid red;*/
+	float: left;
+	margin-top: 14px;
+}
+figure figcaption .info .sat{
+	
+	/*position: relative;
+	top:12px;
+	left: 125px;*/
+	color: gray;
+	font-size: 7px;
+	float: right;
+	margin-top: 26px;
+	/*border:1px solid red;*/
+}
+figure figcaption .info .price strong{
+     font-size: 27px;
+     margin: 0 5px;
+}
+figure figcaption .type{
+	
+	width: 91px;
+	height: 30px;
+	background: #404b67;
+	color: #ffffff;
+	position: absolute;
+	top: 4px;
+	left:0px;
+	opacity: 0.6;
+	border-bottom-right-radius:5px ;
+	
+}
+#weiye{
+	width:100% ;
+	height: 400px;
+/*	border: 1px solid red;*/
+/*	position: relative;*/
+	top:100px;
+	background:#00bfff ;
+}
+#weiye .c1{
+	width: 902px;
+	height:400px;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+}
+
+#weiye .w1{
+	float: left;
+	width: 300px;
+	height: 360px;
+/*	border: 1px solid red;*/
+	margin: 0px auto;
+	
+
+}
+#weiye .w1 .t1{
+	font-size: 30px;
+	color: #fff;
+	border-bottom: 1px dashed gainsboro;
+	margin: 10px 0 10px 60px;
+}
+#weiye .w1 ul li{
+	margin: 10px 0 10px 60px;
+}
+#weiye .w1 ul li:hover{
+	cursor: pointer;
+	color: lightgoldenrodyellow;
+}
+
+#weiye .version{
+	text-align: center;
+	font-size: 20px;
+	
+}
+#weiye .version:hover{
+	cursor: pointer;
+	color: lightgrey;
+}
+#dibu{
+	width: 100%;
+	height: 45PX;
+	background-color: black;
+	color: #F5F5F5;
+	line-height: 45PX;
+	text-align: center;
+}
+/*媒体查询*/
+@media(min-width:1200px){
+	
+}
+@media (min-width:992px)and(max-width:1199px){
+	#adver .center{
+		width: 50%;
+		margin: -20px 0px 0px -25px;
+	}
+}
+@media (min-width:768px)and(max-width:991px){
+	#adver .center{
+		width: 60%;
+		margin:-10px 0px 0px -30px;
+	}
+	#adver .search,#adver .butotn{
+		font-size: 20px;
+	}
+	#tour .center h2{
+		font-size: 35px;
+	}
+}
+/*手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+	#header,#header .center.#header .link{
+		height: 45px;
+	}
+	#header .logo,.sm-hidden,.version{
+		display: none;	
+	}
+	#header .link{
+		width: 100%;
+		line-height: 45px;
+	}
+	#header .center .link li{
+		width: 11.5%;
+	}
+	#adver .center{
+		width: 70%;
+		height: 55px;
+		margin: -10px 0 0 -35px;
+		
+	}
+	#adver .search,#adver .butotn{
+		height: 45px;
+		font-size: 22px;
+	}
+	#tour .center h2{
+		font-size: 30px;
+	}
+	#tour .center p{
+		font-size: 16px;
+	}
+	#tour figure{
+		width: 49%;
+	}
+}
+@media (max-width: 479px){
+	#header,#header .center.#header .link{
+		height: 45px;
+	}
+	#header .logo,.sm-hidden,.version{
+		display: none;	
+	}
+	#header .center .link{
+		width: 100%;
+		line-height: 45px;
+	}
+	#header .center .link li{
+		width: 8.1%;
+	}
+	#adver{
+		padding:45px 0px 0px 0px;
+	}
+	#adver .center{
+		width: 80%;
+		height: 48px;
+		margin: -10px 0px 0px -40%;
+	}
+	#adver .center .search,#adver .butotn{
+		height: 40px;
+		font-size: 16px;
+	}
+	#tour .center h2{
+		font-size: 24px;
+	}
+	#tour .center p{
+		font-size: 12px;
+	}
+	#tour figure{
+		100%
+	}
+	#footer .version,#footer .bottom{
+		display: block;
+		font-size: 13px;
+		
+	}
+} 
+	
